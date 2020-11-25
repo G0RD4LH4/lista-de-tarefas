@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(53, 53, 53);
+  --primary-color-darker: rgb(35, 35, 35);
+  --background-color: rgb(128, 128, 128);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--background-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+section h1 {
+  text-align: center;
+}
+
+section input, .button-task {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+section .taks {
+  
+}
+
+section input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+section input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+section button {
+  margin-bottom: 10px;
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+  border-radius: 7.5px;
+}
+
+section button:hover {
+  background: var(--primary-color-darker);
+}
